@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.cabeçalho {
+    background-color: #aa0505;
+    justify-content:space-between;
+    display:flex;
+    flex-direction: row;
+    font-size: large;
+    text-decoration: none;
+}
+
+.logo {
+    height: 100px;
+}
+
+a:hover {
+    background-color: #aa0505;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #aa0505;
+    text-align: center;
+}
+/* loja */
+
+.card {
+    border:10px solid;
+    margin: 10px;
+}
+
+.card-img {
+    height: 300px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-btn {
+    border-radius: 10px;
+    background-color: #0d6efd;
+    height: 40px;
+}
+
+.preco {
+    color: red;
+    font-weight: 500;
+}
+
+/* login */
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
